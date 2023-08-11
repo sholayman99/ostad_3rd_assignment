@@ -72,15 +72,27 @@ const calculateSquare = num =>{
 }
 
 
-console.log(calculateSquare(1)); // Output: 25
-console.log(calculateSquare(2)); // Output: 64
-console.log(calculateSquare(3)); // Output: 64
-console.log(calculateSquare(4)); // Output: 64
-console.log(calculateSquare(5)); // Output: 64
-console.log(calculateSquare(6)); // Output: 64
-console.log(calculateSquare(7)); // Output: 64
+console.log(calculateSquare(1)); // Output: 1
+console.log(calculateSquare(2)); // Output: 4
+console.log(calculateSquare(3)); // Output: 9
+console.log(calculateSquare(4)); // Output: 16
+console.log(calculateSquare(5)); // Output: 25
+console.log(calculateSquare(6)); // Output: 36
+console.log(calculateSquare(7)); // Output: 49
 console.log(calculateSquare(8)); // Output: 64
-console.log(calculateSquare(9)); // Output: 64
-console.log(calculateSquare(10)); // Output: 64
+console.log(calculateSquare(9)); // Output: 81
+console.log(calculateSquare(10)); // Output: 100
+
+
+
+//Topic-5:javascript es6 map
+
+function doubleNumbers (params) {
+   const res = params.map(num => num * 2) ;
+   return res ;
+}
+const numbers = [1, 2, 3, 4, 5];
+
+console.log(doubleNumbers(numbers));
 
 
