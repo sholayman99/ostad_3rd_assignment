@@ -25,7 +25,7 @@ const person={
     age:36,
     prof: "Footballer"
 }
-const pp={
+const emptyObj={
 
 }
 
@@ -137,18 +137,12 @@ class Dog extends Animal {
 
 const animal = new Animal("Lion", "Roar");
 
-
-animal.makeSound(); // Output: "Roar"
-
-
- 
-
+animal.makeSound();
 
 const dog = new Dog("Buddy", "Woof");
 
 
 dog.makeSound();
-
 
 dog.fetch(); 
 
@@ -179,10 +173,10 @@ class Student extends Person {
 }
 
 // Creating instances and using methods
-const person1 = new Person("John", 30);
+const person1 = new Person("Leo", 34);
 person1.introduce();  
 
-const student1 = new Student("Alice", 20, "Computer Science");
+const student1 = new Student("Messi", 36, "Computer Science");
 student1.introduce(); 
 
 
